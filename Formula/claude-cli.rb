@@ -4,8 +4,8 @@ class ClaudeCli < Formula
   url "https://github.com/MikeshCZ/claude-cli/releases/download/v1.2.0/v1.2.0.tar.gz"
   sha256 "d992728f6aeba846d2a48ce087404db6e5681041774d6149b99347326e0bafcd"
 
-  uses_from_macos "curl"
   depends_on "jq"
+  uses_from_macos "curl"
 
   def install
     bin.install "claude-cli"
