@@ -5,7 +5,7 @@ class ClaudeCli < Formula
   sha256 "d992728f6aeba846d2a48ce087404db6e5681041774d6149b99347326e0bafcd"
   version "1.2.0"
 
-  depends_on "curl"
+  uses_from_macos "curl"
   depends_on "jq"
 
   def install
