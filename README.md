@@ -14,7 +14,7 @@ brew tap MikeshCZ/tap
 
 > **Note:** After adding a 3rd party tap, Homebrew may require you to trust it before installing any packages:
 > ```bash
-> brew trust MikeshCZ/tap --repair
+> brew trust MikeshCZ/tap
 > ```
 
 ---
