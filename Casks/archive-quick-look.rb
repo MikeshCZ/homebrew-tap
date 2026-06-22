@@ -7,7 +7,7 @@ cask "archive-quick-look" do
   desc "macOS QuickLook extension for previewing archive file contents in Finder"
   homepage "https://github.com/MikeshCZ/ArchiveQuickLook"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "ArchiveQuickLook.app"
 
