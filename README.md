@@ -21,7 +21,7 @@ brew tap MikeshCZ/tap
 
 ## Available packages
 
-### claude-cli
+### [claude-cli](https://github.com/MikeshCZ/claude-cli)
 
 A CLI application for communicating with the Anthropic Claude API.
 
@@ -29,7 +29,7 @@ A CLI application for communicating with the Anthropic Claude API.
 brew install claude-cli
 ```
 
-### Archive Quick Look
+### [Archive Quick Look](https://github.com/MikeshCZ/ArchiveQuickLook)
 
 A macOS QuickLook extension that enables quick preview of archive file contents directly in Finder.
 
